@@ -1,0 +1,47 @@
+body{
+    margin : 0;
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    background-color: white;
+    min-height: 100vh;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.task-area{
+    border: 1px solid lightpink;
+    margin-top:2em;
+}
+
+.task-tabs{
+    display: flex;
+    border-bottom: 1px solid lightpink;
+    position: relative;
+}
+
+.task-tabs div{
+    cursor : pointer; 
+    padding:1em;
+}
+
+#under-line{
+    height:4px;
+    background-color: pink;
+    position: absolute;
+    width:70px;
+    left:0px;
+    top:52px;
+    padding:0px;
+}
+
+.task{
+    display: flex;
+    justify-content: space-between;
+    padding : 1em;
+}
+
+.task-done{
+    text-decoration: line-through;
+}
